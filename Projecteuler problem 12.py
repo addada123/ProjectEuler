@@ -32,7 +32,7 @@ def divisor(x):
         if x % i == 0:
             wq+=1
     return wq
-
+#Making bruteforcing easy.
 a = 1
 while True:
     if triangle(a)%2==0 and triangle(a)%3==0 and triangle(a)%5==0 and triangle(a)%7==0 and triangle(a)%13==0 and triangle(a)%17==0:
